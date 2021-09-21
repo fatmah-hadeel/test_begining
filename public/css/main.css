@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:200,300,400,500,700,800,900&subset=arabic');
+
+body {
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+p{
+    margin-top: 1rem;
+}
+
+/* nav */
+img.logo{
+    width: 150px;
+}
+
+.btn.sign-up{
+    -webkit-appearance: none;
+    background-color: #0B3E61;
+    color: white;
+
+}
+
+.btn.login, .btn.en{
+    -webkit-appearance: none;
+    color: #0B3E61;
+    border-color: #0B3E61;
+}
+
+/* 1st section EBF0F2 */
+.btn.read-more{
+    -webkit-appearance: none;
+    background-color: #0B3E61;
+    color: white;
+}
+
+/* test section */
+.btn.test-price{
+    -webkit-appearance: none;
+    background-color: #E99424;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn.view-more{
+    -webkit-appearance: none;
+    background-color: #0B3E61;
+    color: white;
+    width: 35%;
+    border-radius: 10px;
+}
+
+/* contact us section */
+.btn.send-msg{
+    -webkit-appearance: none;
+    background-color: #0B3E61;
+    color: white;
+    width: 35%;
+    border-radius: 10px;
+}
+
+
+
+
+/* this section belong to my code */
+/*body{*/
+/*    direction: ltr;*/
+/*    background:#EBF0F2;*/
+
+
+/*}*/
+/*.line-space{*/
+/*    padding-top: 2%;*/
+/*}*/
+/*.fill-btn{*/
+/*    background-color: #0D2F4E;*/
+/*    color: white;*/
+/*    width: 110%;*/
+/*    margin-left: 30%;*/
+/*}*/
+/*.fill-btn-login{*/
+/*    background-color: #0D2F4E;*/
+/*    color: white;*/
+/*    width: 100%;*/
+/*}*/
+/*.border-btn{*/
+/*    border: 1px solid #0D2F4E;*/
+/*    color: #0D2F4E;*/
+/*    width: 100%;*/
+/*    margin-left: 30%;*/
+/*}*/
+/*.google-btn{*/
+/*    border: 1px solid lightgray;*/
+/*    color: black;*/
+/*    width: 85%;*/
+/*    background-color: white;*/
+/*    !*margin-right: 30%;*!*/
+/*}*/
+/*.google-btn-icon{*/
+/*    width: 10%;*/
+/*}*/
+/*.facebook-btn{*/
+/*    border: 1px solid lightgray;*/
+/*    color: black;*/
+/*    width: 85%;*/
+/*    background-color: white;*/
+
+/*}*/
+/*.facebook-btn-icon{*/
+/*    width: 10%;*/
+/*}*/
+
+/*.img_login{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/

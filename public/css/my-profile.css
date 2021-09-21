@@ -1,0 +1,29 @@
+div.list-group > a.profile-list{
+    -webkit-appearance: none;
+    background-color: #0B3E61;
+    color: white;
+    border: none;
+}
+
+div.list-group > a.profile-list.active{
+    -webkit-appearance: none;
+    background-color: #E99424;
+    color: white;
+    border: none;
+}
+
+#inputUpload {
+    display: none;
+
+}
+
+.custom-file-upload {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: inherit;
+    color: #0B3E61;
+}
+
+.custom-file-upload:hover {
+    text-decoration: underline;
+}

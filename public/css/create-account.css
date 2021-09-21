@@ -1,0 +1,7 @@
+.btn.google{
+    -webkit-appearance: none;
+    background-color: white;
+    color: black;
+    width: 100%;
+    border: 1px grey solid;
+}

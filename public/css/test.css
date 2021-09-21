@@ -1,0 +1,18 @@
+.btn.option-q:hover{
+    -webkit-appearance: none;
+    background-color: #E99424;
+    color: white;
+    border-color: #E99424;
+}
+
+.btn.option-q.active{
+    -webkit-appearance: none;
+    background-color: #E99424;
+    color: white;
+    border-color: #E99424;
+}
+
+/* Dashed red border */
+hr.new2 {
+    border-top: 1px dashed gray;
+}

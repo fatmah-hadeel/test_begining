@@ -1,0 +1,9 @@
+.btn.paypal:hover, .btn.credit-card:hover{
+
+    border: 1px #0B3E61 solid;
+}
+
+.btn.paypal, .btn.credit-card{
+    background-color: white;
+    width: 100%;
+}
