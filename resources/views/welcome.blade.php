@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="col-auto">
                                     <form class="d-flex me-auto">
-                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/storage/images/icons8-instagram-logo-48.png') }}"></button>
+                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/images/icons8-instagram-logo-48.png') }}"></button>
                                         <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/storage/images/icons8-twitter-squared-48.png') }}"></button>
                                         <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/storage/images/icons8-whatsapp-48.png') }}"></button>
                                         <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/storage/images/icons8-facebook-48.png') }}"></button>
