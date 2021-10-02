@@ -28,3 +28,7 @@ Route::get('/test-result',[UserController::class, 'test_result']);
 //Route::get('/upload/{id}',[UserController::class, 'uploadAvatar']);
 Route::patch('/upload/{id}',[UserController::class, 'update']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
