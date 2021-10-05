@@ -178,7 +178,7 @@
                                             <div class="row text-center" style="border-bottom: 1px solid lightgray; padding-top: 1%">
                                                 <div class="col-1">{{$user->id}}</div>
                                                 <div class="col-2">{{$user->name}} {{$user->last_name}}</div>
-                                                <div class="col-2">{{$user->name}}</div>
+                                                <div class="col-2"> {{$user->name}} </div>
                                                 <div class="col-2">{{$user->educational_level}}</div>
                                                 <div class="col-3">{{$user->email}}</div>
                                                 <div class="col-2 text-center d-flex align-items-center justify-content-center">
