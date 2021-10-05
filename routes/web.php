@@ -25,6 +25,7 @@ Route::get('/payments',[UserController::class, 'payment']);
 Route::get('/test',[UserController::class, 'test']);
 Route::get('/test-next',[UserController::class, 'test_next']);
 Route::get('/test-result',[UserController::class, 'test_result']);
+Route::get('/admin-profile',[UserController::class, 'admin_profile']);
 //Route::get('/upload/{id}',[UserController::class, 'uploadAvatar']);
 Route::patch('/upload/{id}',[UserController::class, 'update']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

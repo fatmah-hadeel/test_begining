@@ -65,6 +65,10 @@ class UserController extends Controller
     {
         return view('payment');
     }
+    public function admin_profile()
+    {
+        return view('admin-profile');
+    }
 
 
 
