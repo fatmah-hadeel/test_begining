@@ -166,7 +166,7 @@
                                         <div class="card-header" style="background-color: #0B3E61; color: white; border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                             <div class="row text-center">
                                                 <div class="col-1">#</div>
-                                                <div class="col-2"></div>
+                                                <div class="col-2">الاسم</div>
                                                 <div class="col-2">اسم المستخدم</div>
                                                 <div class="col-2">نوع المستخدم</div>
                                                 <div class="col-3">البريد الالكتروني</div>
@@ -178,8 +178,8 @@
                                             <div class="row text-center" style="border-bottom: 1px solid lightgray; padding-top: 1%">
                                                 <div class="col-1">{{$user->id}}</div>
                                                 <div class="col-2">{{$user->name}} {{$user->last_name}}</div>
-                                                <div class="col-2">soma</div>
-                                                <div class="col-2">طالب ثانوي</div>
+                                                <div class="col-2">{{$user->name}}</div>
+                                                <div class="col-2">{{$user->educational_level}}</div>
                                                 <div class="col-3">{{$user->email}}</div>
                                                 <div class="col-2 text-center d-flex align-items-center justify-content-center">
                                                     <button type="button" class="btn" style=" color: #0B3E61;" data-bs-placement="top" title="عرض بيانات المستخدم" data-bs-toggle="modal" data-bs-target="#viewUserInfoModal"><i class='fas fa-address-card'></i></button>
