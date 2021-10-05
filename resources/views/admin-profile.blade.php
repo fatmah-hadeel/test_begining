@@ -176,11 +176,11 @@
                                         <div class="card-body" style="max-height:575px; overflow-y: auto;">
                                             @foreach($users as $user)
                                             <div class="row text-center" style="border-bottom: 1px solid lightgray; padding-top: 1%">
-                                                <div class="col-1">1</div>
+                                                <div class="col-1">{{$user->id}}</div>
                                                 <div class="col-2">{{$user->name}} {{$user->last_name}}</div>
                                                 <div class="col-2">soma</div>
                                                 <div class="col-2">طالب ثانوي</div>
-                                                <div class="col-3">soma64@gmail.com</div>
+                                                <div class="col-3">{{$user->email}}</div>
                                                 <div class="col-2 text-center d-flex align-items-center justify-content-center">
                                                     <button type="button" class="btn" style=" color: #0B3E61;" data-bs-placement="top" title="عرض بيانات المستخدم" data-bs-toggle="modal" data-bs-target="#viewUserInfoModal"><i class='fas fa-address-card'></i></button>
                                                     <button type="button" class="btn" style=" color: #0B3E61;" data-bs-placement="top" title="تعديل بيانات المستخدم" data-bs-toggle="modal" data-bs-target="#editUserInfoModal"><i class='fas fa-user-edit'></i></button>
