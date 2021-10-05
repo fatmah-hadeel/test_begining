@@ -178,7 +178,7 @@
                                             <div class="row text-center" style="border-bottom: 1px solid lightgray; padding-top: 1%">
                                                 <div class="col-1">{{$user->id}}</div>
                                                 <div class="col-2">{{$user->name}} {{$user->last_name}}</div>
-                                                <div class="col-2"> {{$user->name}} </div>
+                                                <div class="col-2">soma</div>
                                                 <div class="col-2">{{$user->educational_level}}</div>
                                                 <div class="col-3">{{$user->email}}</div>
                                                 <div class="col-2 text-center d-flex align-items-center justify-content-center">
@@ -201,23 +201,13 @@
                                     <div style="padding-bottom: 2%">
                                         <form>
                                             <div class="row">
-                                                <div class="col-4">
+                                                <div class="col-6">
                                                     <div class="form-floating">
                                                         <input type="text" class="form-control" id="" placeholder="الوظيفة بالعربي" value="">
                                                         <label for="">عنوان الاختبار</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-4">
-                                                    <div class="form-floating">
-                                                        <select class="form-select" id="" aria-label="">
-                                                            <option value="1">A-B-C-D</option>
-                                                            <option value="2">V-L-I-T-O-R</option>
-                                                            <option value="3">N-S-E-W</option>
-                                                        </select>
-                                                        <label for="floatingSelectGrid">رموز الإجابة</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
+                                                <div class="col-6">
                                                     <div class="form-floating">
                                                         <input type="number" class="form-control" id="" placeholder="الوظيفة بالانجليزي" value="">
                                                         <label for="">عدد الأسئلة</label>
