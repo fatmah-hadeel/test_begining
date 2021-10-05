@@ -156,7 +156,6 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="all-users" role="tabpanel" aria-labelledby="all-users-tab">
-                        @foreach($users as $user)
                         <div class="row">
                             <div class="col-12">
                                 <div class="card" style="background-color: white; border-radius: 15px; padding: 5%;">
@@ -175,6 +174,7 @@
                                             </div>
                                         </div>
                                         <div class="card-body" style="max-height:575px; overflow-y: auto;">
+                                            @foreach($users as $user)
                                             <div class="row text-center" style="border-bottom: 1px solid lightgray; padding-top: 1%">
                                                 <div class="col-1">1</div>
                                                 <div class="col-2">سمية محمد فلمبان</div>
@@ -186,12 +186,12 @@
                                                     <button type="button" class="btn" style=" color: #0B3E61;" data-bs-placement="top" title="تعديل بيانات المستخدم" data-bs-toggle="modal" data-bs-target="#editUserInfoModal"><i class='fas fa-user-edit'></i></button>
                                                     <button type="button" class="btn btn-outline-danger" style="border: none" data-bs-toggle="tooltip" data-bs-placement="top" title="حذف مستخدم"><i class='fas fa-user-minus'></i></button>
                                                 </div>
+                                                @endforeach
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            @endforeach
                         </div>
                     </div>
                     <div class="tab-pane fade" id="all-tests" role="tabpanel" aria-labelledby="all-tests-tab">
