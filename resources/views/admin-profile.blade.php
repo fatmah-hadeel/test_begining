@@ -173,8 +173,8 @@
                                                 <div class="col-2">الاجراء</div>
                                             </div>
                                         </div>
+                                        @foreach($users as $user)
                                         <div class="card-body" style="max-height:575px; overflow-y: auto;">
-                                            @foreach($users as $user)
                                             <div class="row text-center" style="border-bottom: 1px solid lightgray; padding-top: 1%">
                                                 <div class="col-1">1</div>
                                                 <div class="col-2">{{$user->name}} {{$user->last_name}}</div>
