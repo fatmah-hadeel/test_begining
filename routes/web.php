@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 Auth::routes();
-Artisan::call('storage:link');
 Route::get('/', function () {
 
     return view('welcome');
