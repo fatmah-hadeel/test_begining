@@ -166,7 +166,7 @@
                                         <div class="card-header" style="background-color: #0B3E61; color: white; border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                             <div class="row text-center">
                                                 <div class="col-1">#</div>
-                                                <div class="col-2"> {{$user->name}} {{$user->last_name}}</div>
+                                                <div class="col-2"></div>
                                                 <div class="col-2">اسم المستخدم</div>
                                                 <div class="col-2">نوع المستخدم</div>
                                                 <div class="col-3">البريد الالكتروني</div>
@@ -177,7 +177,7 @@
                                             @foreach($users as $user)
                                             <div class="row text-center" style="border-bottom: 1px solid lightgray; padding-top: 1%">
                                                 <div class="col-1">1</div>
-                                                <div class="col-2">سمية محمد فلمبان</div>
+                                                <div class="col-2">{{$user->name}} {{$user->last_name}}</div>
                                                 <div class="col-2">soma</div>
                                                 <div class="col-2">طالب ثانوي</div>
                                                 <div class="col-3">soma64@gmail.com</div>
