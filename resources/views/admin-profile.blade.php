@@ -165,8 +165,9 @@
                                     <div class="card text-end" style="border-radius: 15px;">
                                         <div class="card-header" style="background-color: #0B3E61; color: white; border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                             <div class="row text-center">
+                                                @foreach($users as $user)
                                                 <div class="col-1">#</div>
-                                                <div class="col-2">الاسم</div>
+                                                <div class="col-2"> {{$user->name}} {{$user->last_name}}</div>
                                                 <div class="col-2">اسم المستخدم</div>
                                                 <div class="col-2">نوع المستخدم</div>
                                                 <div class="col-3">البريد الالكتروني</div>
@@ -191,6 +192,7 @@
                                 </div>
                             </div>
                         </div>
+                        @endforeach
                     </div>
                     <div class="tab-pane fade" id="all-tests" role="tabpanel" aria-labelledby="all-tests-tab">
                         <div class="row">
