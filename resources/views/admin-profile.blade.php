@@ -174,8 +174,8 @@
                                             </div>
                                         </div>
                                         <div class="card-body" style="max-height:575px; overflow-y: auto;">
+                                            @foreach($users as $user)
                                             <div class="row text-center" style="border-bottom: 1px solid lightgray; padding-top: 1%">
-                                                @foreach($users as $user)
                                                 <div class="col-1">1</div>
                                                 <div class="col-2">{{$user->name}} {{$user->last_name}}</div>
                                                 <div class="col-2">soma</div>
@@ -187,8 +187,8 @@
                                                     <button type="button" class="btn btn-outline-danger" style="border: none" data-bs-toggle="tooltip" data-bs-placement="top" title="حذف مستخدم"><i class='fas fa-user-minus'></i></button>
                                                 </div>
                                             </div>
+                                            @endforeach
                                         </div>
-                                        @endforeach
                                     </div>
                                 </div>
                             </div>
