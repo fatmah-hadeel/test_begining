@@ -188,12 +188,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        @endforeach
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    @endforeach
                     <div class="tab-pane fade" id="all-tests" role="tabpanel" aria-labelledby="all-tests-tab">
                         <div class="row">
                             <div class="col-12">
