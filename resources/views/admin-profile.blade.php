@@ -156,6 +156,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="all-users" role="tabpanel" aria-labelledby="all-users-tab">
+                        @foreach($users as $user)
                         <div class="row">
                             <div class="col-12">
                                 <div class="card" style="background-color: white; border-radius: 15px; padding: 5%;">
@@ -165,7 +166,6 @@
                                     <div class="card text-end" style="border-radius: 15px;">
                                         <div class="card-header" style="background-color: #0B3E61; color: white; border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                             <div class="row text-center">
-                                                @foreach($users as $user)
                                                 <div class="col-1">#</div>
                                                 <div class="col-2"> {{$user->name}} {{$user->last_name}}</div>
                                                 <div class="col-2">اسم المستخدم</div>
