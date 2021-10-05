@@ -67,7 +67,8 @@ class UserController extends Controller
     }
     public function admin_profile()
     {
-        return view('admin-profile');
+        $users = DB::table('users')->get();
+        return view('admin-profile')->with('users',compact($users));
     }
 
 
