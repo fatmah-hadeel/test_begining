@@ -187,8 +187,8 @@
                                                     <button type="button" class="btn btn-outline-danger" style="border: none" data-bs-toggle="tooltip" data-bs-placement="top" title="حذف مستخدم"><i class='fas fa-user-minus'></i></button>
                                                 </div>
                                             </div>
-                                            @endforeach
                                         </div>
+                                        @endforeach
                                     </div>
                                 </div>
                             </div>
