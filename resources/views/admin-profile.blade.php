@@ -210,7 +210,7 @@
                                                 <div class="col-6">
                                                     <div class="form-floating">
                                                         <input type="number" class="form-control" id="" placeholder="الوظيفة بالانجليزي" value="">
-                                                        <label for="">عدد الأسئلة</label>
+                                                        <label for="">عدد الأسئلة:</label>
                                                     </div>
                                                 </div>
                                             </div>
