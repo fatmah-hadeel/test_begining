@@ -29,3 +29,7 @@ Route::get('/admin-profile',[UserController::class, 'admin_profile']);
 //Route::get('/upload/{id}',[UserController::class, 'uploadAvatar']);
 Route::patch('/upload/{id}',[UserController::class, 'update']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
