@@ -9,6 +9,7 @@
                     <div class="col-12">
                         <div class="" style="padding-top: 1%">
                             <h3 class="fw-bold">اختر طريقة الدفع</h3>
+                            <h3 class="fw-bold">test 2</h3>
                         </div>
                     </div>
                     <div class="row" style="padding-top: 3%">
