@@ -63,16 +63,6 @@ class User extends Authenticatable
         auth()->user()->update(['avatar' => $filename]);
     }
 
-    // this method will get avatar photo from digitalOcean space
-    public function getFile($id){
-        $document = Document::where('id','=', $id)->firstOrFail();
-        $file = Storage::disk('do_spaces')->get($document->file);
-        $mimetype = \GuzzleHttp\Psr7\mimetype_from_filename($document->file);
-        $headers = [
-            'Content-Type' => $mimetype,
-        ];
-        return response($file, 200, $headers);
-    }
 
 
 
