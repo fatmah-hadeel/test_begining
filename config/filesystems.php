@@ -55,12 +55,12 @@ return [
 
         'do_spaces' => [
             'driver' => 's3',
-            'key' => env('DO_ACCESS_KEY_ID'),
-            'secret' => env('DO_SECRET_ACCESS_KEY'),
-            'region' => env('DO_DEFAULT_REGION'),
-            'bucket' => env('DO_BUCKET'),
+            'key' => 'PCD5ARSIMUVXHJOVRSNY',
+            'secret' => '/Whjb15/UD29xrmcH5Psn3dqvZxihrAs9BTP6qfp2fc',
+            'region' => 'fra1',
+            'bucket' => 'image-dall',
             'url' => env('DO_URL'),
-            'endpoint' => env('DO_ENDPOINT'),
+            'endpoint' => 'https://fra1.digitaloceanspaces.com/',
             'use_path_style_endpoint' => env('DO_USE_PATH_STYLE_ENDPOINT', false),
             ],
 
