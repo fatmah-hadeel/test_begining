@@ -8,7 +8,7 @@
                 <div class="col-12">
                     <div class="card" style="background-color: #0B3E61; border-radius: 15px; padding-top: 10%; padding-bottom: 10%;">
                         <div class="text-center">
-                            <img src="{{asset('/storage/images/'.Auth::user()->avatar)}}" class="card-img-top" alt="..." style=" width: 40%; border-radius: 50%; height:90px; border: 5px white solid;">
+                            <img src="{{ Storage::disk('spaces').Auth::user()->avatar }}" class="card-img-top" alt="..." style=" width: 40%; border-radius: 50%; height:90px; border: 5px white solid;">
                         </div>
                         <div class="card-body">
                             @if (session('status'))
