@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xlg-6 col-md-6 col-12 text-center d-flex align-items-center justify-content-center" style="padding: 2%">
-                <img src="{{ asset('/storage/images/Picture1.png') }}" style="width: 60%">
+                <img src="{{ asset('storage/images/Picture1.png') }}" style="width: 60%">
             </div>
         </div>
 
