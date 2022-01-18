@@ -60,7 +60,7 @@ return [
             'region' => 'fra1',
             'bucket' => 'image-dall',
             'url' => env('DO_URL'),
-            'endpoint' => 'https://fra1.digitaloceanspaces.com',
+            'endpoint' => 'https://do_sapaces.fra1.digitaloceanspaces.com',
             'use_path_style_endpoint' => env('DO_USE_PATH_STYLE_ENDPOINT', false),
             ],
 
