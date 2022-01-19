@@ -20,6 +20,8 @@ class UserController extends Controller
         $this->middleware('auth')->except('welcome');
     }
 
+
+
     public function update(Request $request, $id){
 
         $useredit = User::find($id);
