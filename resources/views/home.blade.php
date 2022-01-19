@@ -8,10 +8,10 @@
                 <div class="col-12">
                     <div class="card" style="background-color: #0B3E61; border-radius: 15px; padding-top: 10%; padding-bottom: 10%;">
                         <div class="text-center">
-                            @forelse($files as $filename)
+                            @foreach($files as $filename)
                             <img src="{{ Storage::disk('do_spaces')->url($filename) }}" class="card-img-top" alt="..." style=" width: 40%; border-radius: 50%; height:90px; border: 5px white solid;">
                         </div>
-                            @endforelse
+                        @endforeach
                         <div class="card-body">
                             @if (session('status'))
                                 <div class="alert alert-success" role="alert">
