@@ -6,10 +6,12 @@
         <div class="col-lg-3 col-xlg-3 col-md-12 col-12" style="padding: 2%">
             <div class="row">
                 <div class="col-12">
+                    @foreach($filename as $filename)
                     <div class="card" style="background-color: #0B3E61; border-radius: 15px; padding-top: 10%; padding-bottom: 10%;">
                         <div class="text-center">
                             <img src="{{ Storage::disk('do_spaces')->url($filename) }}" class="card-img-top" alt="..." style=" width: 40%; border-radius: 50%; height:90px; border: 5px white solid;">
                         </div>
+                        @endforeach
                         <div class="card-body">
                             @if (session('status'))
                                 <div class="alert alert-success" role="alert">
