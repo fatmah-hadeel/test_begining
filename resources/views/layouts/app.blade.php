@@ -138,7 +138,7 @@
                     <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
                         <!-- Content -->
                         <h6 class="text-end">
-                            <img src="{{ asset('storage/images/logo%20-%20name%20(2).png') }}" style="width: 50%">
+                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/logo%20-%20name%20%282%29.png" style="width: 50%">
                         </h6>
                         <p>
                             بوابة لمساعدة الأفراد على تحديد مسارهم التعليمي
