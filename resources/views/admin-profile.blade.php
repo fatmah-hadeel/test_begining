@@ -9,7 +9,7 @@
                     <div class="col-12">
                         <div class="card" style="background-color: #0B3E61; border-radius: 15px; padding-top: 10%; padding-bottom: 10%;">
                             <div class="text-center">
-                                <img src="assets/img/ibrahim.jpeg" class="card-img-top" alt="..." style=" width: 50%; border-radius: 50%; border: 5px white solid;">
+                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/icons8-user-100.png" class="card-img-top" alt="..." style=" width: 50%; border-radius: 50%; border: 5px white solid;">
                             </div>
                             <div class="card-body">
                                 <div class="row">

@@ -197,7 +197,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -217,7 +217,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -237,7 +237,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -257,7 +257,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -277,7 +277,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -314,7 +314,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -338,7 +338,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -362,7 +362,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -386,7 +386,7 @@
                                                 <div class="card mb-3" style="padding: 0; border: none;">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                            <img src="{{ asset('storage/images/p1.png') }}" class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="img-fluid rounded-start" alt="...">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">

@@ -20,7 +20,7 @@
                                     <div class="col-12 fw-bold">16. أيٍ من الجمل التالية توافق عليها أكثر؟</div>
                                 </div>
                                 <div class="row" style="padding: 1%">
-                                    <img src="{{ asset('storage/images/Q-16.png') }}" style="border-radius: 45px">
+                                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/Q-16.png" style="border-radius: 45px">
                                 </div>
                                 <form>
                                     <div class="row row-cols-1 row-cols-md-2 g-4" style="padding: 1% 2% 2% 3%">
@@ -53,7 +53,7 @@
                                     <div class="col-12 fw-bold">17. غالبًا ما أتخذ قراراتي بالاعتماد على:</div>
                                 </div>
                                 <div class="row" style="padding: 1%">
-                                    <img src="{{ asset('storage/images/Q-17.png') }}" style="border-radius: 45px">
+                                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/Q-17.png" style="border-radius: 45px">
                                 </div>
                                 <form>
                                     <div class="row row-cols-1 row-cols-md-2 g-4" style="padding: 1% 2% 2% 3%">
@@ -203,7 +203,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-center">
-                        <img src="{{ asset('storage/images/test-done.png') }}" style="width: 60%">
+                        <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/test-done.png" style="width: 60%">
                         <p class="fs-5 fw-bold">تهــــــانينا</p>
                         <p>لقد قمت بإنهاء الاختبار بنجـاح</p>
                         <a type="button" class="btn" style="-webkit-appearance: none; background-color: #0B3E61; color: white; width: 50%; border-radius: 10px"

@@ -17,12 +17,12 @@
                             <div class="row row-cols-2">
                                 <div class="col">
                                     <a class="btn paypal" data-bs-toggle="collapse" href="#collapsePayPal" role="button" aria-expanded="false" aria-controls="collapsePayPal">
-                                        PayPal <img src="{{ asset('storage/images/icons8-paypal-30.png') }}">
+                                        PayPal <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-paypal-30.png">
                                     </a>
                                 </div>
                                 <div class="col">
                                     <button class="btn credit-card" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCreditCard" aria-expanded="false" aria-controls="collapseCreditCard">
-                                        Credit/ Debit Card <img src="{{ asset('storage/images/icons8-credit-card-30.png') }}">
+                                        Credit/ Debit Card <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/icons8-credit-card-30.png">
                                     </button>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-center">
-                                            <img src="{{ asset('storage/images/payment-done.png') }}" style="width: 60%">
+                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/payment-done.png" style="width: 60%">
                                             <p class="fs-5 fw-bold">تهــــــانينا</p>
                                             <p>تمـت عمليـة الدفـع بنجـاح</p>
                                             <button type="button" class="btn" style="background-color: #0B3E61; color: white; width: 50%; border-radius: 10px">بدء الاختبــار</button>
@@ -147,7 +147,7 @@
             </div>
             <div class="col-lg-6 col-xlg-6 col-md-6 col-12 d-flex align-items-center justify-content-center">
                 <div class="card" style=" border-radius: 20px;">
-                    <img src="{{ asset('storage/images/p1.png') }}" class="card-img-top" alt="..." style="padding: 3%; border-radius: 40px;">
+                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="card-img-top" alt="..." style="padding: 3%; border-radius: 40px;">
                     <div class="card-body">
                         <h5 class="card-title">اسم الاختبـار:</h5>
                         <p class="card-text">اختبـار تحليـل الشخصيـة</p>
