@@ -30,10 +30,10 @@
                                 </div>
                                 <div class="col-auto">
                                     <form class="d-flex me-auto">
-                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/storage/images/icons8-instagram-logo-48.png') }}"></button>
-                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/storage/images/icons8-twitter-squared-48.png') }}"></button>
-                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/storage/images/icons8-whatsapp-48.png') }}"></button>
-                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="{{ asset('/storage/images/icons8-facebook-48.png') }}"></button>
+                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-instagram-logo-48.png"></button>
+                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/icons8-twitter-squared-48.png"></button>
+                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-whatsapp-48.png"></button>
+                                        <button class="btn " type="submit" style="padding-left: 0; padding-right: 0"><img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/icons8-facebook-48.png"></button>
                                     </form>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                                 <div class="col">
                                     <div class="row row-cols-2">
                                         <div class="col-auto">
-                                            <img src="{{ asset('/storage/images/icons8-chat-100.png') }}">
+                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-chat-100.png">
                                         </div>
                                         <div class="col-auto d-flex align-items-center justify-content-center">
                                             <p class="fs-5">رسـالتنا</p>
@@ -77,7 +77,7 @@
                                 <div class="col">
                                     <div class="row row-cols-2">
                                         <div class="col-auto d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/storage/images/icons8-eye-100.png') }}">
+                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-eye-100.png">
                                         </div>
                                         <div class="col-auto">
                                             <p class="fs-5">رؤيـتنا</p>
@@ -93,7 +93,7 @@
                                 <div class="col">
                                     <div class="row row-cols-2">
                                         <div class="col-auto ">
-                                            <img src="{{ asset('/storage/images/icons8-diamond-100.png') }}">
+                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-diamond-100.png">
                                         </div>
                                         <div class="col-auto d-flex align-items-center justify-content-center">
                                             <p class="fs-5">القيم المضـافة</p>
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xlg-6 col-md-6 col-12 text-start" style="padding: 2% 2% 2% 0">
-                <img src="{{ asset('/storage/images/Picture2.png') }}" style="width: 80%; padding-left: 0">
+                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/Picture2.png" style="width: 80%; padding-left: 0">
             </div>
         </div>
 
@@ -132,7 +132,7 @@
                                         <div class="col">
                                             <div class="card" style="border-radius: 20px">
                                                 <a href="{{url('testDetails')}}">
-                                                    <img src="{{ asset('/storage/images/p1.png') }}" class="card-img-top image" alt="..." style="border-top-left-radius: 20px;
+                                                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p1.png" class="card-img-top image" alt="..." style="border-top-left-radius: 20px;
                               border-top-right-radius: 20px;">
                                                 </a>
                                                 <div class="card-body">
@@ -145,7 +145,7 @@
                                         <div class="col">
                                             <div class="card" style="border-radius: 20px">
                                                 <a href="{{url('testDetails')}}">
-                                                    <img src="{{ asset('/storage/images/p2.png') }}" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                                                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p2.png" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                                                 </a>
                                                 <div class="card-body">
                                                     <a class="text-reset" href="{{url('testDetails')}}">
@@ -159,7 +159,7 @@
                                         <div class="col">
                                             <div class="card" style="border-radius: 20px">
                                                 <a href="{{url('testDetails')}}">
-                                                    <img src="{{ asset('/storage/images/p3.jpg') }}" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                                                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/p3.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                                                 </a>
                                                 <div class="card-body">
                                                     <a class="text-reset" href="{{url('testDetails')}}">
@@ -173,7 +173,7 @@
                                         <div class="col">
                                             <div class="card" style="border-radius: 20px">
                                                 <a href="{{url('testDetails')}}">
-                                                    <img src="{{ asset('/storage/images/p4.png') }}" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                                                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p4.png" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                                                 </a>
                                                 <div class="card-body">
                                                     <a class="text-reset" href="{{url('testDetails')}}"><h5 class="card-title">اختبـار تحليل الشخصية</h5></a>
@@ -185,7 +185,7 @@
                                         <div class="col">
                                             <div class="card" style="border-radius: 20px">
                                                 <a href="{{url('testDetails')}}">
-                                                    <img src="{{ asset('/storage/images/p5.png') }}" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                                                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p5.png" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                                                 </a>
                                                 <div class="card-body">
                                                     <a class="text-reset" href="{{url('testDetails')}}"><h5 class="card-title">اختبـار تحليل الشخصية</h5></a>
@@ -197,7 +197,7 @@
                                         <div class="col">
                                             <div class="card" style="border-radius: 20px">
                                                 <a href="{{url('testDetails')}}">
-                                                    <img src="{{ asset('/storage/images/p6.png') }}" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                                                    <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/p6.png" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                                                 </a>
                                                 <div class="card-body">
                                                     <a class="text-reset" href="{{url('testDetails')}}"><h5 class="card-title">اختبـار تحليل الشخصية</h5></a>
@@ -339,7 +339,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xlg-6 col-md-6 col-12 text-start" style="padding: 2% 0 2% 0">
-                <img src="{{ asset('/storage/images/Picture4.png') }}" style="width: 80%; padding-left: 0">
+                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/Picture4.png" style="width: 80%; padding-left: 0">
             </div>
         </div>
 
@@ -364,7 +364,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">إنه موقع رائع ومميز جداً، موقع بيجنينج من أفضل المواقع
@@ -374,7 +374,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person1%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person1%20%282%29.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -391,7 +391,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">أنصح جميع الطلاب اللذين أنهوا المرحلة الثانوية بنجاح، ويريدوا
@@ -401,7 +401,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person2%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person2%20%282%29.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -418,7 +418,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">إنه موقع رائع ومميز جداً، موقع بيجنينج من أفضل المواقع
@@ -428,7 +428,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person3%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person3%20%282%29.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -449,7 +449,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">إنه موقع رائع ومميز جداً، موقع بيجنينج من أفضل المواقع
@@ -459,7 +459,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person3%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person3.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -476,7 +476,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">إنه موقع رائع ومميز جداً، موقع بيجنينج من أفضل المواقع
@@ -486,7 +486,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person1%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person1.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -503,7 +503,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">أنصح جميع الطلاب اللذين أنهوا المرحلة الثانوية بنجاح، ويريدوا
@@ -513,7 +513,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person2%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person2.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -534,7 +534,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">أنصح جميع الطلاب اللذين أنهوا المرحلة الثانوية بنجاح، ويريدوا
@@ -544,7 +544,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person2%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person2%20%282%29.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -561,7 +561,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">إنه موقع رائع ومميز جداً، موقع بيجنينج من أفضل المواقع
@@ -571,7 +571,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person1%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person1%20%282%29.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -588,7 +588,7 @@
                                                     <div class="col">
                                                         <div class="card" style="border-radius: 20px">
                                                             <div class="card-header text-start" style="background-color: white; border: none; border-radius: 20px; padding-top: 3%">
-                                                                <img src="{{ asset('/storage/images/icons8-quote-left-64.png') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/icons8-quote-left-64.png" style="border-radius: 50%; width: 80px; height: 80px;">
                                                             </div>
                                                             <div class="card-body">
                                                                 <p class="card-text">إنه موقع رائع ومميز جداً، موقع بيجنينج من أفضل المواقع
@@ -598,7 +598,7 @@
                                                                 <div class="row row-cols-2">
                                                                     <div class="col-auto">
                                                                         <div class="d-flex align-items-center justify-content-center" style="background-color: lightgray; width: 90px; height: 90px; border-radius: 50%">
-                                                                            <img src="{{ asset('/storage/images/person3%20(2).jpg') }}" style="border-radius: 50%; width: 80px; height: 80px;">
+                                                                            <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/person3%20%282%29.jpg" style="border-radius: 50%; width: 80px; height: 80px;">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-auto d-flex align-items-center justify-content-center">
@@ -677,7 +677,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xlg-6 col-md-6 col-12 text-start" style="padding: 5%">
-                <img src="{{ asset('/storage/images/Picture5.png') }}" style="width: 100%;">
+                <img src="https://image-dall.fra1.digitaloceanspaces.com/static_images/images/images/Picture5.png" style="width: 100%;">
             </div>
         </div>
     </div>

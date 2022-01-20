@@ -60,7 +60,6 @@ class User extends Authenticatable
         (new self())->deleteOldImage();
         $image->storeAs('images',$filename,'do_spaces');
         auth()->user()->update(['avatar' => $filename]);
-        return view(home)->with('filename', $filename);
     }
 
     // this method will get avatar photo from digitalOcean space
