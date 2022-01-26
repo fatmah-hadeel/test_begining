@@ -60,7 +60,7 @@ return [
             'region' => 'fra1',
             'bucket' => 'image-dall',
             'url' => env('DO_URL'),
-            'endpoint' => 'https://ik.imagekit.io/o1dhozoze8mi/',
+            'endpoint' => 'https://fra1.digitaloceanspaces.com',
             'visibility' => 'public',
             'use_path_style_endpoint' => env('DO_USE_PATH_STYLE_ENDPOINT', false),
             ],
