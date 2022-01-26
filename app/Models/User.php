@@ -57,6 +57,7 @@ class User extends Authenticatable
     {
 
         $filename = $image->getClientOriginalName();
+//        $destination_path= $image->getClientOriginalExtension();
         (new self())->deleteOldImage();
         $image->storeAs('images',$filename,'do_spaces');
         auth()->user()->update(['avatar' => $filename]);
