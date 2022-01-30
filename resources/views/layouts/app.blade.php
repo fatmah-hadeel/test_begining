@@ -101,7 +101,7 @@
                                                 {{ Auth::user()->name }}
 
                                                 @if(Auth::user()->avatar)
-                                                    <img style=" width: 40px; height: 40px; border-radius: 50%;" src="https://image-dall.fra1.digitaloceanspaces.com/images/{{Auth::user()->avatar}}">
+                                                    <img style=" width: 40px; height: 40px; border-radius: 50%;" src="https://ik.imagekit.io/o1dhozoze8mi/{{Auth::user()->avatar}}">
                                                 @endif
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">

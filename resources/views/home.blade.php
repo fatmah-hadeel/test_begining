@@ -80,7 +80,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                             <div class="text-center ">
-                                                <img src="https://image-dall.fra1.digitaloceanspaces.com/images/{{Auth::user()->avatar}}" class="card-img-top" alt="..." style=" width: 100px; height: 100px; border-radius: 50%;">
+                                                <img src="https://ik.imagekit.io/o1dhozoze8mi/{{Auth::user()->avatar}}" class="card-img-top" alt="..." style=" width: 100px; height: 100px; border-radius: 50%;">
                                             </div>
 
                                         <div class="col-12 text-end ">
